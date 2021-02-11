@@ -1,0 +1,35 @@
+two types 
+1.working dir (local)
+2.remote (github)
+3. fetch  == is a way to get changes from remote to local but it dont fetch the files after fatch you have to use git marge to marge the changes 
+4.git pull ==pulls the all files from remote to local and also merge with my local files and also add the changes means fetch and push at the same time 
+5.git push  == push local files to remote  
+
+1. after changing file and etc in our local we need to stage files 
+and then 
+2. local repository (creat)
+3. then we can push to remote 
+
+ git config --global user.name "jahid01711"
+git config --global user.email "ulislamjahid7@gmail.com"
+
+git config user.name
+git config --list
+
+1.   git int                                     == to initial git in that local dir
+2.   git status                                  == to check what did you changes in any file or anything in that local dir
+3.    git add --all    ||  git add -A           === to stage all things means the root dir 
+4.   git reset                                 === to reset things and get back to old place and after dealitinng a file can be used to get back the change but wont get the deleted file 
+5.    git add .                                 == to add to stage only current dir not the root dir 
+6.  git add *                                    === to add only undeleted files to stage inculding root dir
+7.  git add "File_Name"                           == to only add that spesific file
+8.   git add *.txt                                === to add only that extintion files
+9. git commit -m "the comment i want to write"    == to create local repository from stage to local repository
+10.  git reset HEAD~                               == to reset from commit and get back to local stage
+11.  git reset --hard                              == to reset to local and get back deleted raw file also with changes 
+12.  git rm two.txt -f                             == to forcely delete file after changes are untracked and also delete from your local as well
+13.  git rm --cached                               == to delete from stage contaning chages in the file but not deleting  from local
+14.  git branch                                    == to check braanch deatils               
+15.  git brance any_name                           == to create a new brtanch 
+16.  git checkout                                  == to change branch 
+17.  git marge branch_name -m "comment"           == to merge files with branch but if both branch have same file with the same mame and same line of code then it can give you confilict and changed file  lines where there is same line 
