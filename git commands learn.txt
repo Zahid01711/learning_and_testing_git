@@ -7,6 +7,7 @@ two types
 
 1. after changing file and etc in our local we need to stage files 
 and then 
+
 2. local repository (creat)
 3. then we can push to remote 
 
