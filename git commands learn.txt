@@ -1,4 +1,3 @@
-
 two types 
 1.working dir (local)
 2.remote (github)
