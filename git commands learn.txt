@@ -1,9 +1,16 @@
+https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
 two types 
 1.working dir (local)
 2.remote (github)
 3. fetch  == is a way to get changes from remote to local but it dont fetch the files after fatch you have to use git marge to marge the changes 
 4.git pull ==pulls the all files from remote to local and also merge with my local files and also add the changes means fetch and push at the same time 
 5.git push  == push local files to remote  
+//
+git push -u origin master
+In the code, the origin is your default remote repository name 
+and '-u' flag is upstream, which is equivalent to '-set-upstream.' 
+and the master is the branch, name.upstream is the repository that we have cloned the project.
+//
 
 1. after changing file and etc in our local we need to stage files 
 and then 
@@ -34,3 +41,9 @@ git config --list
 15.  git brance any_name                           == to create a new brtanch 
 16.  git checkout                                  == to change branch 
 17.  git marge branch_name -m "comment"           == to merge files with branch but if both branch have same file with the same mame and same line of code then it can give you confilict and changed file  lines where there is same line 
+18. git diff
+19. git pull-request
+
+3. Make a new branch.
+
+You can create a new branch by using the git checkout -b 'branch_name'. In the above code, '-b' flag is used to create a new branch, and 'branch_name' is used to give the branch a specific name, and with checkout, the branch is switched to the newly created branch.
